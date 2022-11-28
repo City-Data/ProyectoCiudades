@@ -4,7 +4,7 @@ Proyecto realizado por:
 
 Alejandro de León Fernández
 
-Silvia
+Silvia Lorero Salor
 
 David César Moro Nieto
 
