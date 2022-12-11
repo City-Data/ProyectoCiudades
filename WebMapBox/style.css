@@ -1,4 +1,10 @@
-#map{
+#ciudades{
+    width: 600px;
+    height: 400px;
+    align-items: center;
+}
+
+#provincias{
     width: 600px;
     height: 400px;
 }
