@@ -1,13 +1,13 @@
 #ciudades{
-    width: 800px;
-    height: 600px;
+    width: 750px;
+    height: 500px;
     align-items: center;
     padding-left: 40px;
 }
 
 #provincias{
-    width: 800px;
-    height: 600px;
+    width: 750px;
+    height: 500px;
 }
 
 nav {
@@ -56,20 +56,21 @@ li a:hover{
 
 
 #boton{
-    padding-left: 50px;
+
     font-size: 18px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    padding-left:80px;
 }
 
-h1{
-    font-size: 18px;
-
-}
 
 
 .mostrar{
-    padding-left: 50px;
-    border: black;
+    display: flex;
+    justify-content: center;
+    padding-left:80px;
+
 }
 
 body{
