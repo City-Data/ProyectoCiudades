@@ -6,20 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
-    
+
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
     <title>Inicio</title>
 </head>
 <body>
+<div class="textlogo">City data</div>
+<nav>
     <ul>
         <li>
-            <a href="/provincias.html">Mapa Provincias</a>
-            <a href="/ciudades.html">Mapa Ciudades</a>
-            <a href="#">Lista Ciudades</a>
-            <a href="#">Lista Provincias</a>
+            <a href="/provincias.html" class ="text" >Mapa Provincias</a>
+            <a class ="text" href="/ciudades.html">Mapa Ciudades</a>
+            <a class ="text" href="#">Lista Ciudades</a>
+            <a class ="text" href="#">Lista Provincias</a>
         </li>
     </ul>
+</nav>
+<div class="mostrar">
+    <h1> Aquí se muestra el mapa de las provincias: </h1>
     <div id="provincias"></div>
-    <script src="index.js">provincias()</script>  
+    <script src="index.js">provincias()</script>
+</div>
 </body>
 </html>
