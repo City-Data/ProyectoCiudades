@@ -10,16 +10,21 @@
     <title>MapBox</title>
 </head>
 <body>
+<nav>
     <ul>
         <li>
-            <a href="/provincias.html">Mapa Provincias</a>
-            <a href="/ciudades.html">Mapa Ciudades</a>
-            <a href="#">Lista Ciudades</a>
-            <a href="#">Lista Provincias</a>
+            <a href="/provincias.html" class ="text" >Mapa Provincias</a>
+            <a class ="text" href="/ciudades.html">Mapa Ciudades</a>
+            <a class ="text" href="#">Lista Ciudades</a>
+            <a class ="text" href="#">Lista Provincias</a>
         </li>
     </ul>
-    <button onclick="ciudades()">Boton</button>
+</nav>
+<div id="boton">
+    <h1>Pulsa aquí para que se cargue el mapa de las ciudades:</h1>
+    <button onclick="ciudades()">Ciudades</button>
     <div id="ciudades"></div>
     <script src="index.js">ciudades()</script>
+</div>
 </body>
 </html>
