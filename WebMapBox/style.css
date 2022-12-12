@@ -20,6 +20,8 @@ nav ul {
     width: 100%;
     background-color: lightblue;
     font-size: 18px;
+    display: flex;
+    justify-content: space-evenly;
 
 }
 
@@ -35,10 +37,23 @@ li a.text {
     text-decoration: none;
 }
 
+
 li a:hover{
     background-color:  midnightblue;
     color:lightblue;
 }
+
+.textlogo {
+    color: midnightblue;
+    display:flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 60px;
+
+    font-family: Copperplate;
+}
+
 
 #boton{
     padding-left: 50px;
@@ -54,6 +69,7 @@ h1{
 
 .mostrar{
     padding-left: 50px;
+    border: black;
 }
 
 body{
