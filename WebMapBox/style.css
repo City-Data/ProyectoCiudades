@@ -50,7 +50,6 @@ li a:hover{
     padding-left: 20px;
     padding-top: 10px;
     font-size: 60px;
-
     font-family: Copperplate;
 }
 
@@ -75,4 +74,21 @@ li a:hover{
 
 body{
     background-color: lightblue ;
+}
+
+h2, h3{
+    display:flex;
+    justify-content: center;
+    color:blue;
+    font-family: Copperplate;
+
+}
+h2{
+    font-size: 30px;
+}
+
+
+div ul{
+
+    padding-left:680px;
 }
