@@ -192,3 +192,131 @@ extremadura.onreadystatechange = function(){
         }
     }
 }
+
+const galicia = new XMLHttpRequest()
+galicia.open('GET', `https://apiv1.geoapi.es/provincias?CCOM=12&type=JSON&key=${apiKey}&sandbox=0`, true)
+galicia.send()
+galicia.onreadystatechange = function(){
+    if(this.status == 200 && this.readyState == 4){
+        let datos = JSON.parse(this.responseText)
+        console.log(datos.data)
+        let resultado = document.querySelector('#galicia')
+        resultado.innerHTML = ''
+
+        for(let item of datos.data){
+            resultado.innerHTML += `<li>${item.PRO}</li>`
+        }
+    }
+}
+
+const larioja = new XMLHttpRequest()
+larioja.open('GET', `https://apiv1.geoapi.es/provincias?CCOM=13&type=JSON&key=${apiKey}&sandbox=0`, true)
+larioja.send()
+larioja.onreadystatechange = function(){
+    if(this.status == 200 && this.readyState == 4){
+        let datos = JSON.parse(this.responseText)
+        console.log(datos.data)
+        let resultado = document.querySelector('#larioja')
+        resultado.innerHTML = ''
+
+        for(let item of datos.data){
+            resultado.innerHTML += `<li>${item.PRO}</li>`
+        }
+    }
+}
+
+const madrid = new XMLHttpRequest()
+madrid.open('GET', `https://apiv1.geoapi.es/provincias?CCOM=14&type=JSON&key=${apiKey}&sandbox=0`, true)
+madrid.send()
+madrid.onreadystatechange = function(){
+    if(this.status == 200 && this.readyState == 4){
+        let datos = JSON.parse(this.responseText)
+        console.log(datos.data)
+        let resultado = document.querySelector('#madrid')
+        resultado.innerHTML = ''
+
+        for(let item of datos.data){
+            resultado.innerHTML += `<li>${item.PRO}</li>`
+        }
+    }
+}
+
+const navarra = new XMLHttpRequest()
+navarra.open('GET', `https://apiv1.geoapi.es/provincias?CCOM=15&type=JSON&key=${apiKey}&sandbox=0`, true)
+navarra.send()
+navarra.onreadystatechange = function(){
+    if(this.status == 200 && this.readyState == 4){
+        let datos = JSON.parse(this.responseText)
+        console.log(datos.data)
+        let resultado = document.querySelector('#navarra')
+        resultado.innerHTML = ''
+
+        for(let item of datos.data){
+            resultado.innerHTML += `<li>${item.PRO}</li>`
+        }
+    }
+}
+
+const vasco = new XMLHttpRequest()
+vasco.open('GET', `https://apiv1.geoapi.es/provincias?CCOM=16&type=JSON&key=${apiKey}&sandbox=0`, true)
+vasco.send()
+vasco.onreadystatechange = function(){
+    if(this.status == 200 && this.readyState == 4){
+        let datos = JSON.parse(this.responseText)
+        console.log(datos.data)
+        let resultado = document.querySelector('#vasco')
+        resultado.innerHTML = ''
+
+        for(let item of datos.data){
+            resultado.innerHTML += `<li>${item.PRO}</li>`
+        }
+    }
+}
+
+const murcia = new XMLHttpRequest()
+murcia.open('GET', `https://apiv1.geoapi.es/provincias?CCOM=17&type=JSON&key=${apiKey}&sandbox=0`, true)
+murcia.send()
+murcia.onreadystatechange = function(){
+    if(this.status == 200 && this.readyState == 4){
+        let datos = JSON.parse(this.responseText)
+        console.log(datos.data)
+        let resultado = document.querySelector('#murcia')
+        resultado.innerHTML = ''
+
+        for(let item of datos.data){
+            resultado.innerHTML += `<li>${item.PRO}</li>`
+        }
+    }
+}
+
+const ceuta = new XMLHttpRequest()
+ceuta.open('GET', `https://apiv1.geoapi.es/provincias?CCOM=18&type=JSON&key=${apiKey}&sandbox=0`, true)
+ceuta.send()
+ceuta.onreadystatechange = function(){
+    if(this.status == 200 && this.readyState == 4){
+        let datos = JSON.parse(this.responseText)
+        console.log(datos.data)
+        let resultado = document.querySelector('#ceuta')
+        resultado.innerHTML = ''
+
+        for(let item of datos.data){
+            resultado.innerHTML += `<li>${item.PRO}</li>`
+        }
+    }
+}
+
+const melilla = new XMLHttpRequest()
+melilla.open('GET', `https://apiv1.geoapi.es/provincias?CCOM=19&type=JSON&key=${apiKey}&sandbox=0`, true)
+melilla.send()
+melilla.onreadystatechange = function(){
+    if(this.status == 200 && this.readyState == 4){
+        let datos = JSON.parse(this.responseText)
+        console.log(datos.data)
+        let resultado = document.querySelector('#melilla')
+        resultado.innerHTML = ''
+
+        for(let item of datos.data){
+            resultado.innerHTML += `<li>${item.PRO}</li>`
+        }
+    }
+}
