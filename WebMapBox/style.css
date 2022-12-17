@@ -112,4 +112,19 @@ h2{
     margin-right: 30px;
 }
 
+#ciudad{
+    list-style: none;
+}
+
+#poblacion{
+    list-style: none;
+}
+
+table{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 30px;
+}
+
 

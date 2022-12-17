@@ -5,15 +5,17 @@ datos.onreadystatechange = function(){
     if(this.status == 200 && this.readyState == 4){
         let datos = JSON.parse(this.responseText)
         console.log(datos)
-        let resultado = document.querySelector('#ciudades')
-        resultado.innerHTML = ''
+        let ciudad = document.querySelector('#ciudad')
+        ciudad.innerHTML = ''
+        let poblacion = document.querySelector('#poblacion')
+        poblacion.innerHTML = ''
 
         for(let item of datos){
-            resultado.innerHTML += `<li>${item.properties.nombre}</li>`
+            ciudad.innerHTML += `<li>${item.properties.nombre}</li>`
         }
 
         for(let item of datos){
-            resultado.innerHTML += `<li>${item.properties.poblacion}</li>`
+            poblacion.innerHTML += `<li>${item.properties.poblacion} habitantes</li>`
         }
     }
 }
