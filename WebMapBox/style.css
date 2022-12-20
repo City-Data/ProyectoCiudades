@@ -68,8 +68,7 @@ li a:hover{
 .mostrar{
     display: flex;
     justify-content: center;
-    padding-left:80px;
-
+    text-align: center;
 }
 
 body{
@@ -125,6 +124,14 @@ table{
     margin-left: auto;
     margin-right: auto;
     border-spacing: 30px;
+}
+
+.leyenda {
+    text-align: center;
+}
+
+.leyenda img{
+    height: 60px;
 }
 
 
