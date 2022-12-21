@@ -10,7 +10,7 @@ David César Moro Nieto
 
 Enlace al repositorio: https://github.com/City-Data/ProyectoCiudades
 
-##Link al GitBook:
+## Link al GitBook:
 https://app.gitbook.com/o/duDXfP7aEekX0LVQ78VE/s/PAAwt60KqV142VvYgsnb/
 
 ## Ejercicios teóricos
